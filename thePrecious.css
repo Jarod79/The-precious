@@ -1,0 +1,59 @@
+#precious {
+    width:100vw;
+  display: flex;
+  align-items: center;
+}
+
+.ring1 {
+  width: 1vw;
+  height: 1vw;
+  border: 0.1333333333vw solid #fa2802;
+  border-radius: 50%;
+  box-shadow: 2px 3px 5px 0.015vw #fa2802;
+  margin-left: -0.4vw;
+}
+
+.ring2 {
+  width: 2vw;
+  height: 2vw;
+  border: 0.2666666667vw solid #ff5001;
+  border-radius: 50%;
+  box-shadow: 2px 3px 5px 0.03vw #ff5001;
+  margin-left: -0.8vw;
+}
+
+.ring3 {
+  width: 3vw;
+  height: 3vw;
+  border: 0.4vw solid #ff7801;
+  border-radius: 50%;
+  box-shadow: 2px 3px 5px 0.045vw #ff7801;
+  margin-left: -1.2vw;
+}
+
+.ring4 {
+  width: 4vw;
+  height: 4vw;
+  border: 0.5333333333vw solid #ffa001;
+  border-radius: 50%;
+  box-shadow: 2px 3px 5px 0.06vw #ffa001;
+  margin-left: -1.6vw;
+}
+
+.ring5 {
+  width: 5vw;
+  height: 5vw;
+  border: 0.6666666667vw solid #ffc800;
+  border-radius: 50%;
+  box-shadow: 2px 3px 5px 0.075vw #ffc800;
+  margin-left: -2vw;
+}
+
+.ring6 {
+  width: 6vw;
+  height: 6vw;
+  border: 0.8vw solid #fff000;
+  border-radius: 50%;
+  box-shadow: 2px 3px 5px 0.09vw #fff000;
+  margin-left: -2.4vw;
+}

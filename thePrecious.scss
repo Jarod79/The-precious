@@ -1,0 +1,19 @@
+@mixin thePrecious ($size,$color){
+    width: $size/6;
+    height: $size/6;
+    border:$size/45 solid $color;
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px $size/400 $color;
+    margin-left:-$size/15;
+    
+}
+#precious{
+    display: flex;
+    align-items:center;
+}
+
+@for $i from 1 through 6 {
+    .ring#{$i}  {
+        @include thePrecious(6vw*$i,rgb(250*$i,8*$i*5,2/$i));
+    }
+}
